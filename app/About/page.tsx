@@ -2,7 +2,7 @@
 
 const Page = () => {
  
-    return <h1>about</h1>;
+    return <h1>abou t</h1>;
   }
   
 
