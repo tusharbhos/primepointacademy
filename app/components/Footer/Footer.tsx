@@ -23,8 +23,8 @@ const products: ProductType[] = [
 
 const footer = () => {
     return (
-        <div className="bg-bgpurple -mt-64" id="first-section">
-            <div className="mx-auto max-w-2xl pt-64 pb-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+        <div className="bg-bgpurple " id="first-section">
+            <div className="mx-auto max-w-2xl pt-5 pb-5 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                 <div className="mt-24 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-12 xl:gap-x-8">
 
                     {/* COLUMN-1 */}
@@ -74,8 +74,8 @@ const footer = () => {
 
             {/* All Rights Reserved */}
 
-            <div className='pb-24 px-4'>
-                <h3 className='text-center text-offwhite'>@2023 - All Rights Reserved by <Link href="https://adminmart.com/" target="_blank"> Adminmart.com</Link></h3>
+            <div className=' px-4'>
+                <h3 className='text-center text-offwhite'>@2023 - All Rights Reserved by <Link href="https://aavai.tech/" target="_blank">Aavai tech</Link></h3>
             </div>
 
         </div>

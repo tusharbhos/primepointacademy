@@ -1,7 +1,9 @@
+import Banner from "./components/Banner/Banner";
+
 export default function Home() {
   return (
     <main>
-      <h1>hii</h1>
+      <Banner />
     </main>
   )
 }
