@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Contactus from './Contactus';
-import Aboutus from '../Aboutus';
+import Aboutus from '../../About/page';
 
 interface NavigationItem {
   name: string;

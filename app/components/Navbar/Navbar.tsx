@@ -1,3 +1,4 @@
+"use client";
 import { Disclosure } from '@headlessui/react';
 import { Bars3Icon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
@@ -18,7 +19,7 @@ const navigation: NavigationItem[] = [
     { name: 'Home', href: '/', current: true },
     {
         name: 'Courses',
-        href: '#',
+        href: '/Courses',
         current: false,
         submenu: [
             { name: 'UI/UX Design', href: '/Courses/ui-ux-design-course-in-pune' },
@@ -30,10 +31,10 @@ const navigation: NavigationItem[] = [
             { name: 'SAP MM', href: '/Courses/sap-mm-course-in-pune' },
         ]
     },
-    { name: 'Gallery', href: '/gallery', current: false },
-    { name: 'Blog', href: '#testimonial-section', current: false },
-    { name: 'About Us', href: '/aboutus', current: false },
-    { name: 'Contact Us', href: '/contact', current: false },
+    { name: 'Gallery', href: '/Gallery', current: false },
+    { name: 'Blog', href: '/Blogs', current: false },
+    { name: 'About Us', href: '/About', current: false },
+    { name: 'Contact Us', href: '/ContactUs', current: false },
 ];
 
 function classNames(...classes: string[]) {
